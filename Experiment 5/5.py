@@ -1,0 +1,7 @@
+s1 = set(eval(input("Enter the 1st set: ")))
+s2 = set(eval(input("Enter the 2nd set: ")))
+
+print("Union operation is:", s1.union(s2))
+print("Intersection operation is:", s1.intersection(s2))
+print("The difference is:", s1.difference(s2))
+print("The symmetric difference is:", s1.symmetric_difference(s2))
